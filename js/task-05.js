@@ -1,6 +1,6 @@
 const input = document.getElementById("name-input");
 
-input.addEventListener("change", () => {
+input.addEventListener("input", () => {
   let value = input.value;
   if (value === "") {
     value = "Anonymous";
